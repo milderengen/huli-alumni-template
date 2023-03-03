@@ -13,7 +13,7 @@ def func():
     querystringAu = {"regions": "au", "oddsFormat": "decimal", "markets": "totals", "dateFormat": "iso"}
     querystringUk = {"regions": "uk", "oddsFormat": "decimal", "markets": "totals", "dateFormat": "iso"}
     headers = {
-        "X-RapidAPI-Key": "a5c6ab14f2mshf3bc51a8e156dccp170adfjsn06e7e2074939",
+        "X-RapidAPI-Key": "sorry but cant have my API key, it could cost me",
         "X-RapidAPI-Host": "odds.p.rapidapi.com"
     }
     responseUs = requests.request("GET", url, headers=headers, params=querystringUs)
